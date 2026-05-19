@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Rajeswary D, AWS Cloud Engineer specializing in cloud infrastructure, DevOps, and scalable architectures." },
       { name: "author", content: "Rajeswary D" },
       { property: "og:title", content: "Rajeswary D — AWS Cloud Engineer" },
-      { property: "og:description", content: "AWS Cloud Engineer portfolio — infrastructure, automation, and cloud-native solutions." },
+      { property: "og:description", content: "Portfolio of Rajeswary D, AWS Cloud Engineer specializing in cloud infrastructure, DevOps, and scalable architectures." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Rajeswary D — AWS Cloud Engineer" },
+      { name: "twitter:description", content: "Portfolio of Rajeswary D, AWS Cloud Engineer specializing in cloud infrastructure, DevOps, and scalable architectures." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/NgQgdXVmVkhmuH94Go9fE1p3kjV2/social-images/social-1779197447954-AWS-img.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/NgQgdXVmVkhmuH94Go9fE1p3kjV2/social-images/social-1779197447954-AWS-img.webp" },
     ],
     links: [
       {
