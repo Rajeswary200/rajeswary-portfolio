@@ -4,10 +4,10 @@ import { Cloud, Menu, X } from "lucide-react";
 const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
+  { href: "#skills", label: "AWS Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#certifications", label: "Certifications" },
   { href: "#experience", label: "Experience" },
+  { href: "#certifications", label: "Certifications" },
   { href: "#contact", label: "Contact" },
 ];
 

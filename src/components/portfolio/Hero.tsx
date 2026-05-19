@@ -56,9 +56,9 @@ export default function Hero() {
           </div>
 
           <div className="mt-10 flex items-center gap-3">
-            <SocialBtn href="https://github.com" label="GitHub"><Github className="w-5 h-5" /></SocialBtn>
-            <SocialBtn href="https://linkedin.com" label="LinkedIn"><Linkedin className="w-5 h-5" /></SocialBtn>
-            <SocialBtn href="mailto:rajeswary@example.com" label="Email"><Mail className="w-5 h-5" /></SocialBtn>
+            <SocialBtn href="https://github.com/" label="GitHub"><Github className="w-5 h-5" /></SocialBtn>
+            <SocialBtn href="https://linkedin.com/" label="LinkedIn"><Linkedin className="w-5 h-5" /></SocialBtn>
+            <SocialBtn href="mailto:drajeswary.kalam345@gmail.com" label="Email"><Mail className="w-5 h-5" /></SocialBtn>
           </div>
         </div>
       </div>

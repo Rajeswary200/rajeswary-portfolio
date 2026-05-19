@@ -1,34 +1,36 @@
-import { Cloud, Rocket, ShieldCheck, Zap } from "lucide-react";
+import { Cloud, ShieldCheck, Network, Server } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const highlights = [
-  { icon: Cloud, label: "Cloud Native", value: "AWS Architectures" },
-  { icon: Rocket, label: "Automation", value: "CI/CD & IaC" },
-  { icon: ShieldCheck, label: "Security", value: "IAM & Compliance" },
-  { icon: Zap, label: "Performance", value: "Cost & Scale" },
+  { icon: Cloud, label: "AWS Core", value: "EC2 · S3 · Lambda" },
+  { icon: Network, label: "Networking", value: "VPC · Subnets · NACL" },
+  { icon: ShieldCheck, label: "Security", value: "IAM · CloudTrail" },
+  { icon: Server, label: "Linux", value: "Server Administration" },
 ];
 
 export default function About() {
   return (
     <section id="about" className="relative py-24 md:py-32">
       <div className="container mx-auto px-6 max-w-7xl">
-        <SectionHeader eyebrow="About Me" title="Engineering the Cloud" subtitle="Cloud engineer passionate about building reliable, scalable infrastructure." />
+        <SectionHeader eyebrow="About Me" title="Engineering the AWS Cloud" subtitle="Building secure, scalable cloud projects on Amazon Web Services." />
 
         <div className="grid lg:grid-cols-5 gap-10 items-start">
           <div className="lg:col-span-3 space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
             <p>
               I'm <span className="text-foreground font-semibold">Rajeswary D</span>, an AWS Cloud Engineer
-              focused on designing resilient cloud architectures and automating modern DevOps workflows.
-              I love taking ideas from prototype to production with confidence.
+              with strong knowledge of Amazon Web Services including
+              <span className="text-primary"> EC2, S3, IAM, VPC, and Lambda</span>. I focus on
+              cloud deployment, scalability, automation, and security.
             </p>
             <p>
-              My toolkit includes <span className="text-primary">EC2, S3, Lambda, VPC, IAM, CloudFormation,
-              Terraform, Docker, Kubernetes</span> and modern CI/CD pipelines. I care deeply about
-              observability, security, and cost optimization.
+              I'm skilled in <span className="text-primary">Linux administration, networking
+              concepts, and Python</span>, and have built hands-on AWS projects including static
+              website hosting on S3, an AWS security monitoring system, and EC2-based application
+              deployment inside custom VPC architectures.
             </p>
             <p>
-              When I'm not architecting cloud systems, I'm exploring new AWS services, contributing to
-              automation projects, and sharpening my DevOps skills.
+              Based in Madurai, India — passionate about exploring more AWS services and
+              contributing to real-world cloud solutions.
             </p>
           </div>
 

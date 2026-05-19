@@ -1,36 +1,36 @@
-import { Cloud, Server, Database, Network, Code2, GitBranch, Terminal, Box, Shield, Activity } from "lucide-react";
+import { Cloud, Network, Terminal, Shield, Code2, Wrench } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const groups = [
   {
     title: "AWS Services",
     icon: Cloud,
-    items: ["EC2", "S3", "Lambda", "VPC", "IAM", "RDS", "CloudFormation", "CloudWatch", "Route 53", "ELB"],
+    items: ["EC2", "S3", "Lambda", "IAM", "VPC", "CloudTrail", "CloudWatch", "SNS", "Secrets Manager", "Static Website Hosting"],
   },
   {
-    title: "DevOps & IaC",
-    icon: GitBranch,
-    items: ["Terraform", "Ansible", "Jenkins", "GitHub Actions", "CI/CD", "Git"],
+    title: "Networking",
+    icon: Network,
+    items: ["VPC", "Public & Private Subnets", "Internet Gateway", "Route Tables", "Security Groups", "NACL", "TCP/IP", "DNS", "HTTP/HTTPS"],
   },
   {
-    title: "Containers",
-    icon: Box,
-    items: ["Docker", "Kubernetes", "ECS", "EKS", "Helm"],
+    title: "Programming",
+    icon: Code2,
+    items: ["Python", "Java", "C++", "PHP", "C"],
   },
   {
-    title: "Scripting & Tools",
+    title: "Operating Systems",
     icon: Terminal,
-    items: ["Python", "Bash", "Shell", "Linux", "YAML", "JSON"],
+    items: ["Linux", "Ubuntu", "Windows"],
   },
   {
-    title: "Monitoring",
-    icon: Activity,
-    items: ["CloudWatch", "Prometheus", "Grafana", "ELK Stack"],
-  },
-  {
-    title: "Security",
+    title: "Cloud Security",
     icon: Shield,
-    items: ["IAM Policies", "KMS", "Security Groups", "WAF", "Secrets Manager"],
+    items: ["IAM Roles", "Security Groups", "NACL", "CloudTrail Auditing", "Secrets Manager"],
+  },
+  {
+    title: "Developer Tools",
+    icon: Wrench,
+    items: ["VS Code", "Git", "GitHub", "AWS Management Console"],
   },
 ];
 
@@ -38,7 +38,7 @@ export default function Skills() {
   return (
     <section id="skills" className="relative py-24 md:py-32 bg-secondary/20">
       <div className="container mx-auto px-6 max-w-7xl">
-        <SectionHeader eyebrow="Technical Skills" title="Cloud & DevOps Stack" subtitle="The tools and technologies I work with daily." />
+        <SectionHeader eyebrow="AWS Technical Skills" title="My AWS Cloud Stack" subtitle="Services, networking and tools I work with on Amazon Web Services." />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {groups.map((g, i) => (

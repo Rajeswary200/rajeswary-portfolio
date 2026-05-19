@@ -17,7 +17,7 @@ export default function Footer() {
           <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
             <Linkedin className="w-4 h-4" />
           </a>
-          <a href="mailto:rajeswary@example.com" aria-label="Email" className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
+          <a href="mailto:drajeswary.kalam345@gmail.com" aria-label="Email" className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
             <Mail className="w-4 h-4" />
           </a>
         </div>

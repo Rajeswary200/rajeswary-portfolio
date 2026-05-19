@@ -4,24 +4,33 @@ import SectionHeader from "./SectionHeader";
 const items = [
   {
     icon: Briefcase,
-    role: "AWS Cloud Engineer Intern",
-    org: "Cloud Solutions Pvt Ltd",
-    period: "2024 — Present",
+    role: "AWS Cloud Application Developer",
+    org: "Scopetech Software Solution",
+    period: "Jan 2026 — Jun 2026",
     points: [
-      "Designed and deployed VPC architectures with public/private subnets and NAT gateways.",
-      "Automated infrastructure provisioning using Terraform and CloudFormation.",
-      "Implemented CI/CD workflows with Jenkins and GitHub Actions.",
+      "Worked hands-on with core AWS services including EC2, S3 and IAM.",
+      "Gained experience in cloud deployment and infrastructure management.",
+      "Built understanding of cloud security concepts including IAM roles and access control.",
+      "Delivered projects to strengthen practical AWS and DevOps skills.",
     ],
   },
   {
     icon: GraduationCap,
-    role: "AWS Cloud Training Program",
-    org: "Certified Training Institute",
-    period: "2023 — 2024",
+    role: "M.Sc Computer Science",
+    org: "Sri GVG Visalakshi College — 76%",
+    period: "2020 — 2022",
     points: [
-      "Hands-on training across EC2, S3, IAM, RDS, Lambda and CloudFormation.",
-      "Built capstone projects deploying production-grade workloads on AWS.",
-      "Mastered Linux administration, networking and cloud security fundamentals.",
+      "Advanced studies in computer science fundamentals and cloud computing.",
+      "Built foundation in networking, operating systems and programming.",
+    ],
+  },
+  {
+    icon: GraduationCap,
+    role: "B.Sc Computer Science",
+    org: "Sri GVG Visalakshi College — 74.5%",
+    period: "2017 — 2020",
+    points: [
+      "Core coursework across programming, databases and systems.",
     ],
   },
 ];
