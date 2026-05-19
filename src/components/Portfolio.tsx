@@ -5,7 +5,6 @@ import Skills from "./portfolio/Skills";
 import Projects from "./portfolio/Projects";
 import Certifications from "./portfolio/Certifications";
 import Experience from "./portfolio/Experience";
-import ProfessionalSkills from "./portfolio/ProfessionalSkills";
 import Contact from "./portfolio/Contact";
 import Footer from "./portfolio/Footer";
 
@@ -18,9 +17,8 @@ export default function Portfolio() {
         <About />
         <Skills />
         <Projects />
-        <Certifications />
         <Experience />
-        <ProfessionalSkills />
+        <Certifications />
         <Contact />
       </main>
       <Footer />

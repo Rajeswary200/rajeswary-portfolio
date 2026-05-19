@@ -1,30 +1,27 @@
-import { ExternalLink, Github, Cloud, Server, GitBranch, Database } from "lucide-react";
+import { Github, Cloud, ShieldAlert, Server } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
     icon: Cloud,
-    title: "Serverless Web Application",
-    description: "Built a fully serverless web app using AWS Lambda, API Gateway, DynamoDB and S3 static hosting with CloudFront CDN.",
-    tech: ["Lambda", "API Gateway", "DynamoDB", "S3", "CloudFront"],
+    title: "AWS Static Website Hosting",
+    description:
+      "Hosted a static website on Amazon S3 — configured bucket policies and static website hosting, and managed public access permissions securely for production-ready delivery.",
+    tech: ["Amazon S3", "Bucket Policies", "Static Hosting", "IAM"],
+  },
+  {
+    icon: ShieldAlert,
+    title: "AWS Security Monitoring System",
+    description:
+      "Designed a security monitoring system using AWS CloudTrail, CloudWatch, SNS, Secrets Manager and S3. Configured metric filters and alarms to detect GetSecretValue API calls and trigger real-time email alerts via SNS.",
+    tech: ["CloudTrail", "CloudWatch", "SNS", "Secrets Manager", "S3"],
   },
   {
     icon: Server,
-    title: "Highly Available 3-Tier Architecture",
-    description: "Designed a multi-AZ 3-tier architecture on AWS with auto scaling, ELB, RDS Multi-AZ and bastion host for secure access.",
-    tech: ["EC2", "ELB", "RDS", "VPC", "Auto Scaling"],
-  },
-  {
-    icon: GitBranch,
-    title: "CI/CD Pipeline with Jenkins",
-    description: "Automated build, test and deploy pipeline using Jenkins, Docker and AWS ECS for containerized microservices.",
-    tech: ["Jenkins", "Docker", "ECS", "GitHub", "Terraform"],
-  },
-  {
-    icon: Database,
-    title: "Infrastructure as Code with Terraform",
-    description: "Provisioned an entire AWS environment using Terraform modules — VPC, EKS, RDS — with reusable, version-controlled code.",
-    tech: ["Terraform", "EKS", "VPC", "RDS", "IAM"],
+    title: "EC2-Based Application Deployment",
+    description:
+      "Designed a VPC architecture with public/private subnets, route tables, internet gateway and security groups. Launched Linux EC2 instances and installed/configured the application on the server.",
+    tech: ["EC2", "VPC", "Subnets", "Security Groups", "Linux"],
   },
 ];
 
@@ -49,20 +46,13 @@ export default function Projects() {
                   </div>
                   <div className="flex gap-2">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="GitHub repo"
                       className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
                     >
                       <Github className="w-4 h-4" />
-                    </a>
-                    <a
-                      href="#"
-                      aria-label="Live demo"
-                      className="w-9 h-9 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-                    >
-                      <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
                 </div>
