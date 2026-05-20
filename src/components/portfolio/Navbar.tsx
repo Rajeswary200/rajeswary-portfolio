@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Cloud, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import awsLogo from "@/assets/aws-logo.png";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -30,8 +31,8 @@ export default function Navbar() {
     >
       <nav className="container mx-auto flex items-center justify-between px-6 py-4 max-w-7xl">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="p-2 rounded-lg bg-gradient-to-br from-primary/20 to-accent/20 border border-primary/30 group-hover:border-primary transition-colors">
-            <Cloud className="w-5 h-5 text-primary" />
+          <div className="p-1.5 rounded-lg bg-white/95 border border-primary/30 group-hover:border-primary transition-colors shadow-glow">
+            <img src={awsLogo} alt="AWS" width={28} height={28} className="w-7 h-7 object-contain" />
           </div>
           <span className="font-semibold tracking-tight text-foreground">
             Rajeswary<span className="text-primary">.</span>
