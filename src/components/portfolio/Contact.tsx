@@ -41,18 +41,17 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Conversation bubbles */}
-            <div className="py-6 space-y-3">
-              <div className="flex">
-                <div className="max-w-[80%] px-4 py-3 rounded-2xl rounded-tl-sm bg-secondary/60 border border-border text-sm text-foreground">
-                  Hi 👋 Thanks for stopping by my portfolio!
-                </div>
-              </div>
-              <div className="flex">
-                <div className="max-w-[80%] px-4 py-3 rounded-2xl rounded-tl-sm bg-secondary/60 border border-border text-sm text-foreground">
-                  Have an AWS project, role, or question? Drop me a message and I'll get back to you soon.
-                </div>
-              </div>
+            {/* Impressive headline */}
+            <div className="py-8 text-center">
+              <h3 className="font-[Space_Grotesk] text-2xl md:text-4xl font-bold leading-tight">
+                <span className="gradient-text">Launch your next idea</span>
+                <br />
+                <span className="text-foreground">on the AWS Cloud — together.</span>
+              </h3>
+              <p className="mt-4 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
+                From secure VPCs to serverless deployments, I help teams ship resilient,
+                scalable cloud architectures. Let's design something extraordinary.
+              </p>
             </div>
 
             {/* Contact rows */}
